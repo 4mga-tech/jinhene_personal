@@ -30,7 +30,6 @@ export default function App() {
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <div className="text-center text-white px-4">
             <h1 className="mb-4">TELNOLOJIA</h1>
-            <p className="text-xl md:text-2xl mb-6">Frontend Developer</p>
             <button
               onClick={() =>
                 document
@@ -55,22 +54,10 @@ export default function App() {
                 Миний тухай
               </h2>
               <p className="mb-4">
-                Сайн байна уу! Би гоё, хэрэгтэй вэб туршлага бүтээх дуртай,
-                дизайнд сайн харагддаг хөгжүүлэгч юм. Салбартаа 5 гаруй жил
-                ажилласан туршлагатай бөгөөд намайг сорьж, урам зориг өгдөг олон
-                төрлийн төслүүд дээр ажиллах боломж олдсон.
-              </p>
-              <p className="mb-4">
-                Миний технологийн аялал юм хэрхэн ажилладаг вэ гэсэн сониуч
-                зангаас эхэлсэн бөгөөд энэ нь эцэстээ намайг програм хангамж
-                хөгжүүлэх мэргэжлээр ажиллахад хүргэсэн. Өнөөдөр би хамгийн
-                сүүлийн үеийн технологи ашиглан орчин үеийн вэб програмууд
-                бүтээхээр мэргэшсэн.
-              </p>
-              <p>
-                Код бичихгүй байх үедээ та намайг шинэ технологи судалж,
-                нээлттэй эхийн төслүүдэд хувь нэмэр оруулж, эсвэл намайг
-                бүтээлч, тэнцвэртэй байлгадаг янз бүрийн хоббитой эрхэлдэг.
+                Сайн байна уу! Амгаланбаатар миний бие Мэдээллийн технологийн
+                чиглэлээр суралцдаг ШУТИС-МХТС-ийн 4-р курсын оюутан. Энэхүү
+                вэбсайт нь миний хувийн танилцуулга хуудас бөгөөд вэб, мобайл
+                хөгжүүлэлтийн санал байвал надтай холбогдоно уу.
               </p>
             </div>
             <div className="relative">
@@ -92,19 +79,19 @@ export default function App() {
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center p-6 rounded-lg bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-200">
               <div className="text-4xl mb-2" style={{ color: "#6E95D4" }}>
-                5+
+                2+
               </div>
               <div className="text-gray-700">Жилийн туршлага</div>
             </div>
             <div className="text-center p-6 rounded-lg bg-gradient-to-br from-purple-50 to-purple-100 border-2 border-purple-200">
               <div className="text-4xl mb-2" style={{ color: "#9333EA" }}>
-                50+
+                Чиглэл
               </div>
-              <div className="text-gray-700">Төсөл хийсэн</div>
+              <div className="text-gray-700">Fullstack developer</div>
             </div>
             <div className="text-center p-6 rounded-lg bg-gradient-to-br from-teal-50 to-teal-100 border-2 border-teal-200">
               <div className="text-4xl mb-2" style={{ color: "#0D9488" }}>
-                30+
+                300+
               </div>
               <div className="text-gray-700">Сэтгэл ханамжтай үйлчлүүлэгч</div>
             </div>
@@ -143,20 +130,20 @@ export default function App() {
 
               <div className="space-y-6">
                 <div className="p-6 bg-white rounded-lg shadow-sm">
-                  <div className="mb-2">Ахлах Frontend хөгжүүлэгч</div>
+                  <div className="mb-2"> Frontend хөгжүүлэгч</div>
                   <div className="text-gray-600 mb-2">
-                    Tech Company Inc. | 2021 - Одоо
+                    Tech Company Inc. | 2024 - Одоо
                   </div>
                   <p className="text-gray-600">
-                    Хөгжүүлэгчдийн багийг удирдаж, орчин үеийн фреймворк ашиглан
-                    өргөтгөх боломжтой вэб програмуудыг бүтээх.
+                    Орчин үеийн фреймворк ашиглан өргөтгөх боломжтой вэб
+                    програмуудыг бүтээх.
                   </p>
                 </div>
 
                 <div className="p-6 bg-white rounded-lg shadow-sm">
                   <div className="mb-2">Frontend хөгжүүлэгч</div>
                   <div className="text-gray-600 mb-2">
-                    Digital Agency | 2019 - 2021
+                    Crystal Residence | 2025 - Одоо
                   </div>
                   <p className="text-gray-600">
                     Үйлчлүүлэгчдийн олон төслүүдийг хөгжүүлж, засварлаж,
@@ -167,7 +154,7 @@ export default function App() {
                 <div className="p-6 bg-white rounded-lg shadow-sm">
                   <div className="mb-2">Бага хөгжүүлэгч</div>
                   <div className="text-gray-600 mb-2">
-                    Startup Co. | 2018 - 2019
+                    Nuden Solution | 2025 - Одоо
                   </div>
                   <p className="text-gray-600">
                     Шинэлэг бүтээгдэхүүнүүд бүтээхэд хувь нэмэр оруулж, програм
@@ -189,23 +176,22 @@ export default function App() {
 
               <div className="space-y-6 mb-12">
                 <div className="p-6 bg-white rounded-lg shadow-sm">
-                  <div className="mb-2">Компьютер шинжлэлийн магистр</div>
+                  <div className="mb-2">Мэдээллийн технологийн бакалавр</div>
                   <div className="text-gray-600 mb-2">
-                    Их сургуулийн нэр | 2016 - 2018
+                    ШУТИС-МХТС | 2022 - 2026
                   </div>
                   <p className="text-gray-600">
-                    Програм хангамж, Вэб технологийн чиглэлээр мэргэшсэн.
+                    Програм хангамж, Мэдээллийн технологийн чиглэлээр мэргэшсэн.
                   </p>
                 </div>
 
                 <div className="p-6 bg-white rounded-lg shadow-sm">
-                  <div className="mb-2">Компьютер шинжлэлийн бакалавр</div>
+                  <div className="mb-2">Мэдээллийн технологийн магистр</div>
                   <div className="text-gray-600 mb-2">
-                    Их сургуулийн нэр | 2012 - 2016
+                    ШУТИС-МХТС | 2027 - 2029
                   </div>
                   <p className="text-gray-600">
-                    Компьютер шинжлэлийн үндэс суурь болон програмчлалын талаар
-                    суралцсан.
+                    Мэдээллийн технологи болон програмчлалын талаар суралцсан.
                   </p>
                 </div>
               </div>
@@ -222,13 +208,13 @@ export default function App() {
                 <div className="p-6 bg-white rounded-lg shadow-sm">
                   <div className="mb-2">Шилдэг хөгжүүлэгчийн шагнал</div>
                   <div className="text-gray-600">
-                    Технологийн бага хурал 2023
+                    Технологийн бага хурал 2024
                   </div>
                 </div>
 
                 <div className="p-6 bg-white rounded-lg shadow-sm">
                   <div className="mb-2">Шинэлэг санааны шагнал</div>
-                  <div className="text-gray-600">Компанийн шагнал 2022</div>
+                  <div className="text-gray-600">Компанийн шагнал 2025</div>
                 </div>
               </div>
             </div>
@@ -253,7 +239,7 @@ export default function App() {
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Програм хангамжаас гадна намайг урам зориг өгч, тэнцвэртэй
-              байлгадаг янз бүрийн үйл ажиллагаанууд
+              байлгадаг янз бүрийн зүйлс
             </p>
           </div>
 
@@ -348,7 +334,7 @@ export default function App() {
                 </div>
                 <div>
                   <div className="mb-1">Хаяг</div>
-                  <p className="text-white/90">Nuden Solution, Улаанбаатар</p>
+                  <p className="text-white/90">Нүдэн солюшн, Улаанбаатар</p>
                 </div>
               </div>
 
